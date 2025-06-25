@@ -1,9 +1,11 @@
 # Predição da Qualidade de Vinhos com Redes Neurais
 
 ## Integrantes do Grupo
-#### Carlos Souza
-#### Gustavo Parcianello Cardona
-#### Murilo Schuck
+Carlos Souza
+
+Gustavo Parcianello Cardona
+
+Murilo Schuck
 
 
 ## 1. Descrição do Problema
