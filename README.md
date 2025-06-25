@@ -33,10 +33,10 @@ Resultado e Análise Crítica:
 O modelo treinou, mas o desempenho foi insatisfatório. A métrica R² (Coeficiente de Determinação) foi de apenas 0.338, o que significa que o modelo só conseguia explicar cerca de 33,8% da variabilidade na qualidade do vinho. O Erro Absoluto Médio (MAE) de 0.547 indicou que, em média, as previsões erravam a nota em mais de meio ponto. Concluímos que prever a nota exata era uma tarefa muito difícil com os dados disponíveis.
 
 ### Abordagem 2: Modelo de Classificação (wine_classification_model.ipynb)
-Diante do baixo desempenho da regressão, decidimos fazer um modelo de classificação também, com o objetivo de lassificar os vinhos em três categorias: Ruim (nota ≤ 4), Médio (nota 5-7) e Bom (nota ≥ 8).
+Diante do baixo desempenho da regressão, decidimos fazer um modelo de classificação, com o objetivo de classificar os vinhos em três categorias: Ruim (nota ≤ 4), Médio (nota 5-7) e Bom (nota ≥ 8).
 
 Resultado e Análise Crítica:
-À primeira vista, o desempenho do modelo de classificação pareceu um grande avanço, com uma acurácia geral de 82%. No entanto, uma análise mais detalhada das métricas por classe revelou um desempenho bastante desbalanceado. O F1-score para a classe "Média" foi excelente, atingindo 0.90, o que mostra que o modelo é muito eficaz em identificar a classe majoritária. Em contrapartida, o desempenho nas classes minoritárias foi muito baixo, com F1-scores de apenas 0.26 para vinhos "Ruins" e 0.32 para "Bons".
+Notamos que o desempenho do modelo de classificação pareceu um extremamente bom, comparado com a regressão, com uma acurácia geral de 82%. No entanto, uma análise mais detalhada das métricas por classe revelou um desempenho bastante desbalanceado. O F1-score para a classe "Média" foi excelente, atingindo 0.90, o que mostra que o modelo é muito eficaz em identificar a classe majoritária. Em contrapartida, o desempenho nas classes minoritárias foi muito baixo, com F1-scores de apenas 0.26 para vinhos "Ruins" e 0.32 para "Bons".
 
 Isso nos levou à conclusão de que a alta acurácia é uma métrica enganosa neste caso. O modelo, na prática, aprendeu a "apostar" na classe mais frequente, mas não conseguiu capturar os padrões complexos que definem vinhos de qualidade ruim ou excelente, tornando-o pouco útil para uma análise de qualidade criteriosa.
 
