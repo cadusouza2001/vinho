@@ -5,7 +5,7 @@ Carlos Souza
 
 Gustavo Parcianello Cardona
 
-Murilo Schuck
+Murilo Oliveira Schuck
 
 
 ## 1. Descrição do Problema
