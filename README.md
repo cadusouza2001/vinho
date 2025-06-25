@@ -16,6 +16,7 @@ A relevância desta aplicação está no potencial de auxiliar produtores de vin
 
 ## 2. Dataset Utilizado
 https://archive.ics.uci.edu/dataset/186/wine+quality
+
 O conjunto de dados combina amostras de vinhos tintos e brancos, contendo 12 atributos de entrada e 1 variável de saída (a nota de qualidade).
 
 Features: fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, type.
