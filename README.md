@@ -38,7 +38,7 @@ Diante do baixo desempenho da regressão, decidimos fazer um modelo de classific
 Resultado e Análise Crítica:
 Notamos que o desempenho do modelo de classificação pareceu um extremamente bom, comparado com a regressão, com uma acurácia geral de 82%. No entanto, uma análise mais detalhada das métricas por classe revelou um desempenho bastante desbalanceado. O F1-score para a classe "Média" foi excelente, atingindo 0.90, o que mostra que o modelo é muito eficaz em identificar a classe majoritária. Em contrapartida, o desempenho nas classes minoritárias foi muito baixo, com F1-scores de apenas 0.26 para vinhos "Ruins" e 0.32 para "Bons".
 
-Isso nos levou à conclusão de que a alta acurácia é uma métrica enganosa neste caso. O modelo, na prática, aprendeu a "apostar" na classe mais frequente, mas não conseguiu capturar os padrões complexos que definem vinhos de qualidade ruim ou excelente, tornando-o pouco útil para uma análise de qualidade criteriosa.
+Isso nos levou à conclusão de que a alta acurácia é uma métrica enganosa neste caso, tornando-o pouco útil para uma análise de qualidade criteriosa.
 
 ## 4. Conclusão 
-A alta acurácia geral é enganosa. Ela é impulsionada pelo fato de o dataset ser extremamente desbalanceado, com a grande maioria das amostras estar localizada na região média.
+A alta acurácia geral é enganosa, pelo fato de o dataset ser extremamente desbalanceado, com a grande maioria das amostras estar localizada na região média.
